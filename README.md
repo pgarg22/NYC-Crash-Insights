@@ -83,8 +83,3 @@ jupyter notebook notebook.ipynb
 MIT License. Feel free to use, remix, and share with attribution.
 
 ---
-
-## 👥 Contributors
-
-- [Your Name] (you@example.com)
-- Collaborators can be listed here.
