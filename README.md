@@ -19,18 +19,17 @@ This project analyzes over 1.88 million motor vehicle collisions reported in New
 
 ```
 .
+├── Motor_Vehicle_Collisions_-_Crashes.csv.zip  # Main dataset (must unzip first)
 ├── basic_stats.html                  # Pandas profiling report (static)
 ├── deepnote_exports/                # Output files or charts exported from Deepnote
 ├── genres.png                       # Image used in the project
 ├── heatmap.html                     # Folium heatmap of accident locations
 ├── history_weather_data.csv         # Weather data for potential correlation
 ├── init.ipynb                       # Initial setup/experiment notebook
-├── Motor_Vehicle_Collisions_-_Crashes.csv  # Main dataset
 ├── notebook.html                    # Rendered notebook (HTML)
 ├── notebook.ipynb                   # Main analysis notebook
 ├── Projected_Population_2010-2040_–_Summary.csv  # Demographic data (optional use)
 ├── requirements.txt                 # Python dependencies
-└── SD_website-main/                 # Website files (if deploying as a project showcase)
 ```
 
 ---
@@ -39,7 +38,8 @@ This project analyzes over 1.88 million motor vehicle collisions reported in New
 
 - **Source**: [NYC Open Data – Motor Vehicle Collisions](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95)
 - **Size**: ~1.88 million records, 29 features
-- **Time Range**: Filtered from 2018–2021 for meaningful contrast with COVID-19 year (2020)
+- **Time Range**: 2018–2021
+- **Format**: Zipped CSV file – **must be unzipped before use**
 
 ---
 
@@ -51,6 +51,11 @@ To run the notebook and view results:
 git clone https://github.com/yourusername/nyc-crash-insights.git
 cd nyc-crash-insights
 pip install -r requirements.txt
+
+# Unzip the dataset before running the notebook
+unzip Motor_Vehicle_Collisions_-_Crashes.csv.zip
+
+# Launch notebook
 jupyter notebook notebook.ipynb
 ```
 
@@ -69,16 +74,7 @@ jupyter notebook notebook.ipynb
 - Predictive modeling of crash likelihood (XGBoost, Random Forest, etc.)
 - Integration with real-time traffic APIs
 - Correlation with weather and population density
-- Deploy as an interactive web dashboard
-
----
-
-## 🌐 Live Demo / Website
-
-If applicable, hosted project site under `SD_website-main/`:
-```
-coming soon / insert link
-```
+- Deploy a companion website from a separate GitHub repository
 
 ---
 
