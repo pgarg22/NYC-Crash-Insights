@@ -1,0 +1,12 @@
+holidays==0.13
+xgboost==1.6.0
+chart_studio
+statsmodels==0.13.2
+sktime==0.11.3
+ipywidgets==7.7.0
+ipywidgets
+plotly==4.13.0
+plotly
+plotly==4.14.0
+plotly
+ 
